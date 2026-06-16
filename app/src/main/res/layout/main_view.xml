@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainViewActivity">
+
+    <LinearLayout
+        android:id="@+id/mainViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/topToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6200EE"
+            android:minHeight="?attr/actionBarSize"
+            app:title="[Prototyp]"
+            app:titleTextColor="@android:color/white">
+
+            <ImageButton
+                android:id="@+id/settingsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/outline_settings_24" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/editModeTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="10dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/editModeCancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avbryt" />
+
+            <TextView
+                android:id="@+id/editModeTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Redigeringsläge"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/editModeConfirmBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bekräfta" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/searchInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Sök..."
+            android:inputType="text" />
+
+        <FrameLayout
+            android:id="@+id/mainContentFrame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ExpandableListView
+                android:id="@+id/expandableListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ListView
+                android:id="@+id/searchListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingSavedMealsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="100dp"
+                android:contentDescription="Visa sparade måltider"
+                app:maxImageSize="40dp"
+                app:srcCompat="@drawable/outline_menu_book_2_80" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingMealBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="Visa måltid"
+                app:maxImageSize="40dp"
+                app:srcCompat="@drawable/outline_list_alt_80" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingHelpBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="Visa hjälp"
+                app:maxImageSize="40dp"
+                app:srcCompat="@drawable/outline_help_80" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingFHMBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="100dp"
+                android:contentDescription="Länk till folkhälsomyndigheten"
+                app:maxImageSize="40dp"
+                app:srcCompat="@drawable/outline_emoji_people_80" />
+
+            <View
+                android:id="@+id/editModeTouchOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/editModeBottomPanel"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/editModeSelectedFabText"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/editModeShrinkBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/editModeGrowBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/customizationFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
+</FrameLayout>

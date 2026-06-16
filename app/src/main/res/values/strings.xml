@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NutritionCalculator</string>
+    <string name="detail_unit">Näringsvärden /%1$s</string>
+    <string name="detail_calories">%1$d kcal</string>
+    <string name="detail_calories_no_unit">%1$d</string>
+    <string name="detail_protein">%1$.1f g</string>
+    <string name="detail_carbs">%1$.1f g</string>
+    <string name="detail_fat">%1$.1f g</string>
+    <string name="detail_macro_no_unit">%1$.1f</string>
+    <string name="item_added_alert">%1$d%2$s av %3$s lades till i din måltid</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

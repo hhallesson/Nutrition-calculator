@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/returnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/outline_keyboard_return_40"/>
+
+        <TextView
+            android:id="@+id/mealSummaryTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:text="Måltid"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:id="@+id/showMealDetailsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/outline_list_50"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Totala näringsvärden:"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/totalCaloriesRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kalorier:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/totalCaloriesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="69 kcal"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalProteinRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Protein:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/totalProteinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.7 g"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalCarbsRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kolhydrater:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/totalCarbsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.9 g"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalFatRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fett:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/totalFatText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.2 g"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/saveMealBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spara måltid"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/clearMealBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rensa måltid"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

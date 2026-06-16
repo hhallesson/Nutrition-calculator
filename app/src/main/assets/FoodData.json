@@ -1,0 +1,658 @@
+{
+  "Spannmål och tillbehör": [
+    {
+      "name": "Pasta (Kokt)",
+      "calories": 157,
+      "protein": 5.8,
+      "carbs": 30.7,
+      "fat": 0.9,
+      "unit": "g"
+    },
+    {
+      "name": "Fullkornspasta (Kokt)",
+      "calories": 124,
+      "protein": 5.3,
+      "carbs": 26.5,
+      "fat": 5.3,
+      "unit": "g"
+    },
+    {
+      "name": "Vitt Ris (Kokt)",
+      "calories": 129,
+      "protein": 2.7,
+      "carbs": 27.9,
+      "fat": 0.3,
+      "unit": "g"
+    },
+    {
+      "name": "Bulgur (Kokt)",
+      "calories": 83,
+      "protein": 3.1,
+      "carbs": 18.6,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Couscous (Kokt)",
+      "calories": 112,
+      "protein": 3.8,
+      "carbs": 23.2,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Potatis (Kokt)",
+      "calories": 87,
+      "protein": 1.9,
+      "carbs": 20.1,
+      "fat": 0.1,
+      "unit": "g"
+    },
+    {
+      "name": "Potatismos (Färskpotatis)",
+      "calories": 122,
+      "protein": 2.1,
+      "carbs": 13.2,
+      "fat": 7.0,
+      "unit": "g"
+    },
+    {
+      "name": "Pulvermos (Tillagad)",
+      "calories": 66,
+      "protein": 1.5,
+      "carbs": 12.0,
+      "fat": 0.8,
+      "unit": "g"
+    },
+    {
+      "name": "Potatisbullar",
+      "calories": 161,
+      "protein": 2.1,
+      "carbs": 20.0,
+      "fat": 7.9,
+      "unit": "g"
+    },
+    {
+      "name": "Havregryn ICA",
+      "calories": 370,
+      "protein": 9.5,
+      "carbs": 64.0,
+      "fat": 7.0,
+      "unit": "g"
+    },
+    {
+      "name": "Fullkornsris ICA",
+      "calories": 350,
+      "protein": 7.4,
+      "carbs": 72.0,
+      "fat": 3.0,
+      "unit": "g"
+    },
+    {
+      "name": "Bulgur ICA",
+      "calories": 360,
+      "protein": 13.0,
+      "carbs": 68.0,
+      "fat": 2.0,
+      "unit": "g"
+    },
+    {
+      "name": "Couscous ICA",
+      "calories": 350,
+      "protein": 12.0,
+      "carbs": 70.0,
+      "fat": 1.5,
+      "unit": "g"
+    },
+    {
+      "name": "Penne Rigate ICA",
+      "calories": 360,
+      "protein": 12.0,
+      "carbs": 72.0,
+      "fat": 1.2,
+      "unit": "g"
+    },
+    {
+      "name": "Spaghetti Kungsörnen",
+      "calories": 360,
+      "protein": 12.0,
+      "carbs": 71.0,
+      "fat": 2.0,
+      "unit": "g"
+    },
+    {
+      "name": "Fullkornspasta Makaroner Kungsörnen",
+      "calories": 352,
+      "protein": 14.0,
+      "carbs": 65.0,
+      "fat": 2.0,
+      "unit": "g"
+    },
+    {
+      "name": "Spaghetti Glutenfri ICA",
+      "calories": 360,
+      "protein": 6.8,
+      "carbs": 78.0,
+      "fat": 1.8,
+      "unit": "g"
+    },
+    {
+      "name": "Potatisgratäng ICA",
+      "calories": 125,
+      "protein": 2.5,
+      "carbs": 12.0,
+      "fat": 7.4,
+      "unit": "g"
+    }
+  ],
+  "Bröd och frukost": [
+    {
+      "name": "Smörgåslimpa",
+      "calories": 80,
+      "protein": 2.5,
+      "carbs": 14.8,
+      "fat": 0.9,
+      "unit": "st"
+    },
+    {
+      "name": "Fullkornsbröd",
+      "calories": 69,
+      "protein": 2.7,
+      "carbs": 12.9,
+      "fat": 1.2,
+      "unit": "st"
+    },
+    {
+      "name": "Rågrut",
+      "calories": 35,
+      "protein": 1.0,
+      "carbs": 6.5,
+      "fat": 0.2,
+      "unit": "st"
+    },
+    {
+      "name": "Knäckebröd Fullkorn Pyramidbageriet",
+      "calories": 314,
+      "protein": 9.8,
+      "carbs": 62.0,
+      "fat": 2.5,
+      "unit": "g"
+    },
+    {
+      "name": "Knäckebröd Normalgräddat Leksands",
+      "calories": 350,
+      "protein": 8.9,
+      "carbs": 60.0,
+      "fat": 1.6,
+      "unit": "g"
+    },
+    {
+      "name": "Knäckebröd Frukost Wasa",
+      "calories": 405,
+      "protein": 12.0,
+      "carbs": 66.0,
+      "fat": 9.0,
+      "unit": "g"
+    },
+    {
+      "name": "Skinkost",
+      "calories": 190,
+      "protein": 16.0,
+      "carbs": 0.2,
+      "fat": 15.0,
+      "unit": "g"
+    },
+    {
+      "name": "Leverpastej",
+      "calories": 270,
+      "protein": 10.0,
+      "carbs": 8.5,
+      "fat": 22.0,
+      "unit": "g"
+    },
+    {
+      "name": "Marmelad",
+      "calories": 204,
+      "protein": 0.5,
+      "carbs": 50.0,
+      "fat": 0.0,
+      "unit": "g"
+    },
+    {
+      "name": "Cornflakes",
+      "calories": 380,
+      "protein": 8.2,
+      "carbs": 83.0,
+      "fat": 1.0,
+      "unit": "g"
+    },
+    {
+      "name": "Müsli",
+      "calories": 374,
+      "protein": 12.4,
+      "carbs": 69.5,
+      "fat": 6.7,
+      "unit": "g"
+    }
+  ],
+  "Mejeri och ägg": [
+    {
+      "name": "Ägg",
+      "calories": 65,
+      "protein": 5.5,
+      "carbs": 0.3,
+      "fat": 4.4,
+      "unit": "st"
+    },
+    {
+      "name": "Lättmjölk 0,5% ICA",
+      "calories": 38,
+      "protein": 3.6,
+      "carbs": 4.7,
+      "fat": 0.5,
+      "unit": "ml"
+    },
+    {
+      "name": "Mjölk",
+      "calories": 47,
+      "protein": 3.5,
+      "carbs": 4.7,
+      "fat": 1.5,
+      "unit": "ml"
+    },
+    {
+      "name": "Filmjölk",
+      "calories": 60,
+      "protein": 3.4,
+      "carbs": 3.8,
+      "fat": 3.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Vanilj Yoghurt",
+      "calories": 70,
+      "protein": 3.9,
+      "carbs": 8.5,
+      "fat": 2.0,
+      "unit": "g"
+    },
+    {
+      "name": "Yoghurt Mild Naturell 3% ICA",
+      "calories": 60,
+      "protein": 3.6,
+      "carbs": 3.9,
+      "fat": 3.0,
+      "unit": "g"
+    },
+    {
+      "name": "Kvarg",
+      "calories": 60,
+      "protein": 10.0,
+      "carbs": 3.4,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Keso Cottage Cheese Naturell 4%",
+      "calories": 100,
+      "protein": 14.0,
+      "carbs": 1.7,
+      "fat": 4.0,
+      "unit": "g"
+    },
+    {
+      "name": "Keso Cottage Cheese Supermini 0,2%",
+      "calories": 61,
+      "protein": 12.0,
+      "carbs": 3.0,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Grekisk yoghurt naturell 0,4% Valio",
+      "calories": 46,
+      "protein": 5.6,
+      "carbs": 4.2,
+      "fat": 0.4,
+      "unit": "g"
+    }
+  ],
+  "Kött, fågel och chark": [
+    {
+      "name": "Falukorv",
+      "calories": 260,
+      "protein": 9.0,
+      "carbs": 4.0,
+      "fat": 23.0,
+      "unit": "g"
+    },
+    {
+      "name": "Grillkorv",
+      "calories": 250,
+      "protein": 9.5,
+      "carbs": 9.8,
+      "fat": 20.0,
+      "unit": "g"
+    },
+    {
+      "name": "Chicken Nuggets",
+      "calories": 290,
+      "protein": 12.0,
+      "carbs": 8.0,
+      "fat": 8.0,
+      "unit": "g"
+    },
+    {
+      "name": "Kycklingfilé",
+      "calories": 114,
+      "protein": 23.7,
+      "carbs": 0.0,
+      "fat": 1.5,
+      "unit": "g"
+    },
+    {
+      "name": "Nötfärs",
+      "calories": 260,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 20.0,
+      "unit": "g"
+    },
+    {
+      "name": "Köttbullar Scan",
+      "calories": 220,
+      "protein": 13.0,
+      "carbs": 8.0,
+      "fat": 15.0,
+      "unit": "g"
+    },
+    {
+      "name": "Kycklingprinskorv ICA",
+      "calories": 230,
+      "protein": 15.0,
+      "carbs": 5.6,
+      "fat": 17.0,
+      "unit": "g"
+    },
+    {
+      "name": "Kycklingkorv Chorizo ICA",
+      "calories": 150,
+      "protein": 12.0,
+      "carbs": 6.5,
+      "fat": 8.8,
+      "unit": "g"
+    },
+    {
+      "name": "Kycklingkorv Kabanoss ICA",
+      "calories": 150,
+      "protein": 12.0,
+      "carbs": 7.0,
+      "fat": 8.5,
+      "unit": "g"
+    }
+  ],
+  "Fisk och skaldjur": [
+    {
+      "name": "Fiskpinnar",
+      "calories": 207,
+      "protein": 12.0,
+      "carbs": 19.0,
+      "fat": 9.0,
+      "unit": "g"
+    },
+    {
+      "name": "Panerad fiskfilé",
+      "calories": 160,
+      "protein": 13.0,
+      "carbs": 8.0,
+      "fat": 8.0,
+      "unit": "g"
+    },
+    {
+      "name": "Tonfisk i vatten ICA",
+      "calories": 106,
+      "protein": 24.0,
+      "carbs": 0.0,
+      "fat": 1.0,
+      "unit": "g"
+    },
+    {
+      "name": "Torskfilé ICA Gott Liv",
+      "calories": 78,
+      "protein": 18.0,
+      "carbs": 0.0,
+      "fat": 0.5,
+      "unit": "g"
+    },
+    {
+      "name": "Varmrökt lax med peppar ICA",
+      "calories": 238,
+      "protein": 21.0,
+      "carbs": 0.0,
+      "fat": 17.0,
+      "unit": "g"
+    }
+  ],
+  "Baljväxter och grönsaker": [
+    {
+      "name": "Gurka",
+      "calories": 12,
+      "protein": 0.6,
+      "carbs": 2.2,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Paprika",
+      "calories": 26,
+      "protein": 1.0,
+      "carbs": 6.0,
+      "fat": 0.3,
+      "unit": "g"
+    },
+    {
+      "name": "Körsbärstomater",
+      "calories": 18,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Gröna ärtor",
+      "calories": 81,
+      "protein": 5.4,
+      "carbs": 14.5,
+      "fat": 0.4,
+      "unit": "g"
+    },
+    {
+      "name": "Rödlök",
+      "calories": 42,
+      "protein": 0.9,
+      "carbs": 10.1,
+      "fat": 0.1,
+      "unit": "g"
+    },
+    {
+      "name": "Bladspenat",
+      "calories": 30,
+      "protein": 3.2,
+      "carbs": 0.6,
+      "fat": 0.5,
+      "unit": "g"
+    },
+    {
+      "name": "Broccoli",
+      "calories": 34,
+      "protein": 2.8,
+      "carbs": 6.6,
+      "fat": 0.4,
+      "unit": "g"
+    },
+    {
+      "name": "Vitkål",
+      "calories": 26,
+      "protein": 1.3,
+      "carbs": 5.3,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Majskorn ICA",
+      "calories": 69,
+      "protein": 2.2,
+      "carbs": 11.0,
+      "fat": 1.1,
+      "unit": "g"
+    },
+    {
+      "name": "Kidneybönor ICA",
+      "calories": 90,
+      "protein": 6.5,
+      "carbs": 12.0,
+      "fat": 0.6,
+      "unit": "g"
+    },
+    {
+      "name": "Svarta bönor ICA",
+      "calories": 90,
+      "protein": 5.4,
+      "carbs": 14.0,
+      "fat": 0.5,
+      "unit": "g"
+    },
+    {
+      "name": "Gröna linser ICA",
+      "calories": 69,
+      "protein": 4.3,
+      "carbs": 9.9,
+      "fat": 0.2,
+      "unit": "g"
+    },
+    {
+      "name": "Kikärtor ICA I love eco",
+      "calories": 120,
+      "protein": 7.0,
+      "carbs": 14.0,
+      "fat": 2.3,
+      "unit": "g"
+    },
+    {
+      "name": "Ärtor och morötter ICA",
+      "calories": 50,
+      "protein": 2.8,
+      "carbs": 6.9,
+      "fat": 0.3,
+      "unit": "g"
+    }
+  ],
+  "Frukt, bär och sött": [
+    {
+      "name": "Jordgubbar frysta ICA",
+      "calories": 40,
+      "protein": 0.8,
+      "carbs": 6.5,
+      "fat": 0.5,
+      "unit": "g"
+    },
+    {
+      "name": "Äppelmos ICA",
+      "calories": 110,
+      "protein": 0.0,
+      "carbs": 28.0,
+      "fat": 0.0,
+      "unit": "g"
+    },
+    {
+      "name": "Blåbärssylt ICA I love eco",
+      "calories": 170,
+      "protein": 0.5,
+      "carbs": 41.0,
+      "fat": 0.5,
+      "unit": "g"
+    }
+  ],
+  "Drycker": [
+    {
+      "name": "Protein Shake",
+      "calories": 278,
+      "protein": 49.8,
+      "carbs": 25.0,
+      "fat": 0.5,
+      "unit": "st"
+    },
+    {
+      "name": "Coca-cola",
+      "calories": 42,
+      "protein": 0.0,
+      "carbs": 10.6,
+      "fat": 0.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Fanta",
+      "calories": 32,
+      "protein": 0.0,
+      "carbs": 10.6,
+      "fat": 0.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Redbull",
+      "calories": 45,
+      "protein": 0.0,
+      "carbs": 11.0,
+      "fat": 0.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Lättöl",
+      "calories": 29,
+      "protein": 0.2,
+      "carbs": 1.6,
+      "fat": 0.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Starköl",
+      "calories": 47,
+      "protein": 0.6,
+      "carbs": 3.2,
+      "fat": 0.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Apelsinjuice nypressad Brämhults",
+      "calories": 43,
+      "protein": 0.7,
+      "carbs": 9.0,
+      "fat": 0.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Apelsinjuice koncentrat ICA",
+      "calories": 39,
+      "protein": 0.7,
+      "carbs": 8.7,
+      "fat": 0.5,
+      "unit": "ml"
+    },
+    {
+      "name": "Blåbärssoppa ICA",
+      "calories": 45,
+      "protein": 0.0,
+      "carbs": 11.0,
+      "fat": 0.0,
+      "unit": "ml"
+    },
+    {
+      "name": "Fanta Orange Zero",
+      "calories": 3,
+      "protein": 0.0,
+      "carbs": 0.4,
+      "fat": 0.0,
+      "unit": "ml"
+    }
+  ]
+}

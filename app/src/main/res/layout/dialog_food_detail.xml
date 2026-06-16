@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="130dp"
+    android:layout_marginBottom="160dp"
+    android:layout_marginStart="35dp"
+    android:layout_marginEnd="35dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/detailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Potatismos (Färskpotatis)"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="Näringsinnehåll /100g:"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:id="@+id/detailCaloriesRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kalorier:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/detailCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="69 kcal"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailProteinRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Protein:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/detailProtein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.7 g"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailCarbsRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kolhydrater:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/detailCarbs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12.9 g"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailFatRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fett:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/detailFat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.2 g"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inputAmount"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:hint="Ange antal X..." />
+
+    <Button
+        android:id="@+id/addMealBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lägg till i måltid"
+        android:textSize="20sp" />
+
+</LinearLayout>
